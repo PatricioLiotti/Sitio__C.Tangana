@@ -109,15 +109,14 @@ a button:hover{
 .cards-wrapper {
 	display: flex;
 }
-
 .card { 
 	margin-left: 3%;
 	margin-top: 3%;
 	transition: all .2s ease-in-out; }
 
-.card:hover { transform: scale(1.1); }
+.sectioncard .card:hover { transform: scale(1.1); }
 
-.fotos:hover { transform: scale(1.1); }
+.fotos:hover { transform: scale(1.25); }
 
 .carousel-control-next-icon {
 	background-color: darkgrey;
@@ -275,7 +274,7 @@ justify-content: space-evenly
 	to {transform: rotate(359deg);}
 }
 
-.sectionfechas {
+section {
 	padding-bottom: 10%;
 }
 
