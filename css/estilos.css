@@ -1,0 +1,358 @@
+* {
+	box-sizing: border-box;
+	background-color: #F6F5F4;
+	font-family: 'Futura', sans-serif;
+}
+
+.container-fluid1 {
+	height: 20%;
+}
+
+.divlogo {
+	width: 20%;
+	padding-top: 2%;
+}
+
+.logo {
+	width: 35%;
+}
+
+.navbar-brand {
+	width: 55%;
+}
+
+.navitem {
+	margin-left: 13%;
+	margin-right: 13%;
+	text-decoration: none;
+	font-size: 23px;
+	color: black;
+	padding-top: 7%;
+	font-weight: lighter;
+	transition: color 0s;
+}
+
+.navitem:hover {
+	color: #D54A3F;
+}
+
+.banner {
+	margin-top: 3%;
+	width: 100%;
+}
+
+.btn-btn-primary {
+	margin-top: 15%;
+	margin-bottom: 20%;
+	background-color: #D54A3F;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 10px 10px 7px -2px rgba(148,148,148,1);
+	font-size: 21px;
+	padding: 3%;
+	width: 100%;
+
+	animation-name: zoominout;
+	animation-duration: 3s;
+}
+
+@keyframes zoominout {
+0% {font-size: 21px}
+50% {font-size: 30px}
+100% {font-size: 21px}
+}
+
+.btn-btn-primary2 {
+	background-color: #D54A3F;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	padding: 3%;
+	text-decoration: none;
+	transition: border-radius 0.5s, color 0.5s;
+}
+
+a button {
+	transition: border-radius 0.5s, color 0.5s;
+}
+
+a button:hover{
+	border-radius: 20px;
+	color: yellow;
+}
+
+.btn-btn-primary3 {
+	background-color: #D54A3F;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	padding: 1%;
+	padding-right: 5%;
+	padding-left: 5%;
+	text-decoration: none;
+	transition: border-radius 0.5s, color 0.5s;
+}
+
+.btn-btn-primary3:hover{
+	border-radius: 20px;
+	color: yellow;
+}
+
+.btn-btn-primary2:hover{
+	border-radius: 20px;
+	color: yellow;
+}
+
+.cards-wrapper {
+	display: flex;
+}
+
+.card { 
+	margin-left: 3%;
+	margin-top: 3%;
+	transition: all .2s ease-in-out; }
+
+.card:hover { transform: scale(1.1); }
+
+.fotos:hover { transform: scale(1.1); }
+
+.carousel-control-next-icon {
+	background-color: darkgrey;
+}
+
+.carousel-control-prev-icon {
+	background-color: darkgrey;
+}
+
+.card-title {
+font-family: "Calmius Sans Oppo";
+font-size: 28px;
+}
+
+.card-title2 {
+font-family: "Calmius Sans Oppo Extra Light";
+font-size: 24px;
+}
+
+.formulario {
+	width: 40%;
+} 
+
+h2 {
+	text-align: center;
+}
+
+#h2falso {
+	font-size: 40px;
+}
+
+h1 {
+	text-align: center;
+	padding-top: 2%;
+
+	animation-name: animacionh1;
+	animation-duration: 2s;
+}
+
+@keyframes animacionh1 {
+  from{width: 40%;}
+  to{width: 100%;}
+}
+
+
+.container2 {
+	margin-top: 3%;
+}
+
+.div-tour22 {
+	display: flex;
+	width: 100%;
+}
+
+.tour22 {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 2%;
+}
+
+.titulofechas {
+	margin-bottom: 3%;
+}
+
+.fecha {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fecha h4 {
+	font-weight: bolder;
+	background-color: darkgrey;
+	border-radius: 2px;
+	padding: 1%;
+}
+
+.fecha h5 {
+	align-self: center;
+	font-size: 23px;
+}
+
+.fecha button {
+	background-color: #D54A3F;
+	color: #FFFFFF;
+	border-radius: 5px;
+	border: none;
+	font-size: 17px;
+	padding-right: 3%;
+	padding-left: 3%;
+	text-decoration: none;
+	height: 3rem;
+	width: 8rem;
+	}
+
+.sectionfechas div {
+	margin-right: 12%
+}
+
+.fotos {
+	width: 100%;
+	margin-top: 5%;
+	transition: all .2s ease-in-out;
+}
+
+iframe {
+	margin-top: 5%;
+}
+
+
+.articleformulario {
+display: flex;
+margin-top: 5%;
+justify-content: space-evenly
+}
+
+.divcontacto {
+	margin-top: 2%;
+}
+
+.divcontacto p {
+	display: inline;
+	font-size: 24px;
+	margin-left: 0%;
+}
+
+.divcontacto div {
+	padding-bottom: 5%;
+}
+
+.redes {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.divcontacto img {
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+.pinfo1 {
+	font-weight: bolder;
+}
+
+.iconosrrss2 {
+	animation-name: rotacionredes;
+	animation-duration: 2s;
+	animation-delay: 2s;
+}
+
+@keyframes rotacionredes {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(359deg);}
+}
+
+.sectionfechas {
+	padding-bottom: 10%;
+}
+
+footer {
+	background-color: darkgrey;
+	height: 20%;
+}
+
+.divredesfooter {
+	display: flex;
+	width: 70%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: darkgrey;
+}
+
+.redesfooter {
+	width: 2.5rem;
+	height: 2.5rem;
+	background-color: darkgrey;
+}
+
+footer span {
+font-size: 1.5em;
+color: white;
+background-color: darkgrey;
+}
+
+.textofooter p {
+	text-align: center;
+	background-color: darkgrey;
+	color: white;
+	font-size: 19px;
+}
+
+
+@media screen and (max-width: 992px) {
+.articleformulario {
+	display: block;
+}
+.divcontacto {
+margin-bottom: 3%;
+margin-left: auto;
+nav-right: auto;
+}
+
+.form {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.redes {
+	justify-content: space-around;
+}
+
+.sectionfechas article {
+margin-left: 0%;
+margin-right: 0%;
+}
+
+.sectionfechas h4 {
+font-size: 18px;
+padding: 0%;
+margin-right: 3%;
+}
+
+.sectionfechas h5 {
+	font-size: 17px;
+}
+
+.sectionfechas button {
+	font-size: 15px;
+}
+
+
+}
+
