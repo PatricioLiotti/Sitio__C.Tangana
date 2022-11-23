@@ -13,7 +13,7 @@
 <header>
 	<div class="container">
 		<nav class="navbar navbar-expand-lg">
-		 	<a class="navbar-brand" href="index.html"><img class="logo" src="Media/El Madrileño Logo.png"></a>
+		 	<a class="navbar-brand" href="index.html"><img class="logo" src="./Media/El Madrileño Logo.png"></a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		  	<span class="navbar-toggler-icon"></span>
 		  </button>
@@ -64,30 +64,30 @@
 	
 <div class="form col-lg-5 col-md-9">
 <h2>Sumate a nuestra Newsletter</h2>
-<form class="formulario2 needs-validation" action="mailto:patricioliotti@gmail.com" method="GET">
+<form netlify action="mailto:mail@mail.com" class="formulario2 needs-validation" method="post" novalid>
     <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label"></label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nombre">
-      <div class="valid-feedback">
+    <label for="Nombre" class="form-label"></label>
+    <input type="text" class="form-control" id="exampleInputName1" placeholder="Nombre" name="Nombre" required>
+      <div class="valid-feedback" required>
       Los datos están bien
     </div>
-        <div class="invalid-feedback">
+        <div class="invalid-feedback" required>
       Los datos no son correctos
     </div>
   </div>
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label"></label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+    <label for="Email" class="form-label"></label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="Emai" aria-describedby="emailHelp" required>
   </div>
-       <div class="valid-feedback">
+       <div class="valid-feedback" required>
       Los datos están bien
     </div>
-         <div class="invalid-feedback">
+         <div class="invalid-feedback" required>
       Los datos no son correctos
     </div>
   <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Acepto recibir las últimas novedades</label>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="Checkbox" required>
+    <label class="form-check-label" for="Checkbox">Acepto recibir las últimas novedades</label>
   </div>
   <button type="submit" class="btn-btn-primary3">Enviar</button>
 </form>
