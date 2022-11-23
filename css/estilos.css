@@ -46,11 +46,12 @@
 
 	animation-name: zoominout;
 	animation-duration: 3s;
+	animation-iteration-count: infinite;
 }
 
 @keyframes zoominout {
 0% {font-size: 21px}
-50% {font-size: 30px}
+50% {font-size: 28px}
 100% {font-size: 21px}
 }
 
@@ -99,7 +100,8 @@ a button:hover{
 
 .cards-wrapper {
 	display: flex;
-	margin-left: 10%;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .card { 
@@ -129,9 +131,6 @@ font-family: "Calmius Sans Oppo Extra Light";
 font-size: 24px;
 }
 
-.formulario {
-	width: 40%;
-} 
 
 h2 {
 	text-align: center;
@@ -213,14 +212,10 @@ h1 {
 
 .fotos {
 	width: 100%;
-	margin-top: 5%;
+	margin-bottom: 4%;
+	margin-top: 3%;
 	transition: all .2s ease-in-out;
 }
-
-iframe {
-	margin-top: 5%;
-}
-
 
 .articleformulario {
 display: flex;
@@ -345,6 +340,6 @@ margin-right: 3%;
 	font-size: 15px;
 }
 
-
 }
+
 
