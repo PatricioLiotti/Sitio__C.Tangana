@@ -41,12 +41,14 @@
 
 <h2 id="h2falso">Merch</h2>
 
-<div class="container-fluid">
+<div class="container">
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
-       <div class="cards-wrapper">
-       	<div class="card col-md-3">
+
+<div class="carousel-item active">
+<div class="cards-wrapper">
+
+<div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch1.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Camiseta blanca</h5>
@@ -55,7 +57,8 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-<div class="card col-md-3">
+
+<div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch8.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Poster 70x50cm</h5>
@@ -64,7 +67,8 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-<div class="card col-md-3">
+
+<div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch7.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Hoodie negro</h5>
@@ -73,7 +77,13 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-<div class="card col-md-3">
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="cards-wrapper">
+
+<div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch11.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Gorra negra</h5>
@@ -82,11 +92,8 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-       </div>
-    </div>
-    <div class="carousel-item">
-       <div class="cards-wrapper">
-       	<div class="card col-md-3">
+ 
+  <div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch4.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Gorra blanca</h5>
@@ -95,7 +102,8 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-<div class="card col-md-3">
+
+<div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch 21.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Manga larga</h5>
@@ -104,7 +112,13 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-<div class="card col-md-3">
+</div>
+</div>
+
+<div class="carousel-item">
+<div class="cards-wrapper">
+
+<div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch6.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Taza</h5>
@@ -113,7 +127,7 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-<div class="card col-md-3">
+<div class="card col-lg-3 col-md-6 col-sm-12">
   <img src="Media/Merch9.jpeg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Camiseta amarilla</h5>
@@ -122,9 +136,18 @@
     <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
 </div>
-       </div>
-    </div>
+<div class="card col-lg-3 col-md-6 col-sm-12">
+  <img src="Media/Merch18.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Buzo negro</h5>
+    <h5 class="card-title2">€40,00</h5>
+    <p class="card-text"></p>
+    <a href="Merch.html" class="btn-btn-primary2">Ver Productos</a>
   </div>
+</div>
+</div>
+</div>
+
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -139,10 +162,10 @@
 
 <div class="container2">
 <h2>Sumate a nuestra Newsletter</h2>
-<form netlify name="contact" class="formulario mx-auto needs-validation" method="GET" novalid>
+<form netlify action="mailto:mail@mail.com" name="contact" class="formulario mx-auto needs-validation" method="GET" novalid>
     <div class="mb-3">
     <label for="exampleInputName1" class="form-label"></label>
-    <input type="text" class="form-control" id="exampleInputName1" placeholder="Nombre" required>
+    <input type="text" class="form-control" id="exampleInputName1" placeholder="Nombre" name="Nombre" required>
     <div class="valid-feedback" required>
       Los datos están bien
     </div>
@@ -152,7 +175,8 @@
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label"></label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp" required>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" name="Email" 
+    aria-describedby="emailHelp" required>
        <div class="valid-feedback">
       Los datos están bien
     </div>
@@ -161,7 +185,7 @@
     </div>
   </div>
   <div class="mb-3 form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="Checkbox" required>
     <label class="form-check-label" for="exampleCheck1">Acepto recibir las últimas novedades</label>
   </div>
   <button type="submit" class="btn-btn-primary3">Enviar</button>
